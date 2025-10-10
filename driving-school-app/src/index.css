@@ -1,68 +1,488 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&display=swap");
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*---------------------Header-------------------------------*/
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #1d1d1b; /* Dark gray */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: Arial, sans-serif;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+/* Left side: logo + burger */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
-a:hover {
-  color: #535bf2;
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }
+
+.logo {
+  font-size: 18px;
+  font-weight: bold;
+  color: #91723c;
+}
+
+/* Right side navigation links */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.3s ease;
+  background-color: #1d1d1b;
+}
+
+/* Navigation links */
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #c0993df5; /* Golden yellow */
+}
+
+/* Icons */
+.icon {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #fff;
+}
+
+.icon:hover {
+  color: #91723c;
+}
+
+/* Burger icon */
+.burger-icon {
+  font-size: 24px;
+  color: #fff;
+}
+
+/*---------------------Hero Section-------------------------------*/
+.hero {
+  position: relative;
+  display: flex;
+  justify-content: center; /* center text horizontally */
+  align-items: center;     /* center text vertically */
+  flex-direction: column;
+  padding: 120px 24px 80px; /* taller top padding */
+  min-height: 600px;       /* ensures enough height */
+  color: #fff;
+  text-align: center;
+  background-image: url('../assets/background.png'); /* use your imported image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* dark overlay for readability */
+  z-index: 1;
+}
+
+.hero-text {
+  position: relative;
+  z-index: 2; /* ensure text appears above overlay */
+}
+
+.hero-text h1 {
+  font-size: 48px; /* slightly bigger for impact */
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-cta button {
+  margin: 0 10px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #91723c;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #d88e00;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+/*---------------------Features Section-------------------------------*/
+.features {
+  padding: 60px 24px;
+  text-align: center;
+  background-color: #f9f9f9; /* Very light gray */
+  color: #333;
+}
+
+.feature-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/*---------------------How It Works Section-------------------------------*/
+.how-it-works {
+  padding: 60px 24px;
+  background-color: #f1f1f1;
+  color: #333;
+  align-items: center;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.step {
+  width: 300px;
+}
+
+h2{
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+   color: #7a6a45;
+   align-items: center;
+}
+
+
+/* ---------------- Contact Page ---------------- */
+
 
 body {
   margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.contact-page {
+  width: 100%;
+  overflow-x: hidden;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.contact-hero {
+  background-color: #957539;
+  color: #000;
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.contact-hero h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.contact-hero h1 span {
+  color: #000;
+  font-weight: 700;
+}
+
+.contact-container {
   display: flex;
-  place-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 80px 10%;
+  background-color: #fff;
+  flex-wrap: wrap;
+  animation: fadeInUp 1.2s ease;
+}
+
+.contact-info {
+  flex: 1;
   min-width: 320px;
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  opacity: 0;
+  animation: fadeInLeft 1.2s ease forwards;
+  animation-delay: 0.3s;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 16px;
+  color: #7a6a45;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+.contact-icon {
+  color: #957539;
+  font-size: 20px;
+}
+
+.business-hours-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.contact-form {
+  flex: 1.2;
+  min-width: 360px;
+  opacity: 0;
+  animation: fadeInRight 1.2s ease forwards;
+  animation-delay: 0.5s;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #000;
+  background-color: #f2f2f2;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+.contact-form textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-form input:hover,
+.contact-form textarea:hover {
+  background-color: #ebebeb;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border: 1px solid #957539;
+  background-color: #fff;
+  outline: none;
+  box-shadow: 0 0 6px rgba(149, 117, 57, 0.3);
+}
+
+.interest-section {
+  margin-top: 20px;
+}
+
+.interest-section label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-size: 16px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;      
+  align-items: flex-start;     
+  gap: 10px;                  
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;                   
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  margin: 0;                   
+}
+
+.radio-group input[type="radio"] {
+  margin: 0;                    
+  vertical-align: middle;       
+  accent-color: #957539;       
+  width: 16px;
+  height: 16px;
+}
+
+.contact-form button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 26px;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  align-self: flex-end;
+  transition: all 0.3s ease;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+.contact-form button:hover {
+  background-color: #333;
+  transform: scale(1.03);
+}
+
+.footer {
+  background: #000;
+  color: #957539;
+  font-family: Arial, sans-serif;
+  padding: 20px 40px;
+  border-top: 2px solid #000;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 12px;
+  color: #957539;
+  padding: 10px 0;
+}
+
+/*------------------Animations------------------*/
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(30px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+/*------------------Responsive------------------*/
+@media (max-width: 900px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 40px 20px;
   }
-  a:hover {
-    color: #747bff;
+
+  .contact-form {
+    margin-top: 40px;
   }
-  button {
-    background-color: #f9f9f9;
+
+  .contact-hero h1 {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-right {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #1d1d1b;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 16px;
+    gap: 16px;
+    display: none;
+  }
+
+  .navbar-right.active {
+    display: flex;
+  }
+
+  .burger-icon {
+    display: block;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 20px 60px; /* responsive padding */
+    min-height: 500px;
+  }
+
+  .hero-text h1 {
+    font-size: 36px;
+  }
+
+  .hero-text p {
+    font-size: 18px;
+  }
+
+  .feature-cards,
+  .steps,
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-form form {
+    width: 100%;
   }
 }
