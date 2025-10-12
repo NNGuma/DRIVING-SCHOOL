@@ -1,0 +1,132 @@
+/* Defining color variables */
+:root{
+  --primary-color: #91723c;
+  --secondary-color: #ffd489;
+  --appname: white;
+  --text: black;
+  --authcontainerbackground: white;
+  --shadows: black;
+}
+
+/* Desktop-optimized layout for Vite React */
+.auth-wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(120deg, black, #ffd489);
+  font-family: "Poppins", sans-serif;
+}
+
+.auth-container {
+  display: flex;
+  width: 1100px;
+  height: 650px;
+  background: var(--authcontainerbackground);
+  border-radius: 16px;
+  box-shadow: 0 15px 40px var(--shadows);
+  overflow: hidden;
+}
+
+/* Left side (brand/info) */
+.auth-left {
+  width: 50%;
+  background: linear-gradient(135deg,  #91723c, #ffd489);
+  color: var(--appname);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  text-align: center;
+}
+
+.auth-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Right side (form) */
+.auth-right {
+  width: 50%;
+  padding: 3rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auth-right h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.subtitle {
+  color: #666;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form label {
+  font-weight: 500;
+  color: #333;
+}
+
+.auth-form input,
+.auth-form select {
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.auth-form input:focus,
+.auth-form select:focus {
+  border-color: var(--primary-color);
+}
+
+.auth-btn {
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.9rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background 0.3s;
+}
+
+.auth-btn:hover {
+  background: var(--primary-color);
+}
+
+.toggle-text {
+  margin-top: 1.3rem;
+  font-size: 0.95rem;
+  color: #444;
+  text-align: center;
+}
+
+.toggle-text span {
+  color: var(--primary-color);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  /* Keep desktop view — disable responsive collapse */
+  .auth-container {
+    transform: scale(0.9);
+  }
+}
