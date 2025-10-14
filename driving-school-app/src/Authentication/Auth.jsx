@@ -24,7 +24,6 @@ export default function Auth() {
 
   return (
     <div className="auth-page">
-      {/* ✅ Room for Navbar above */}
       <div className="auth-wrapper">
         <div className="auth-container">
           <div className="auth-left">
@@ -131,8 +130,6 @@ export default function Auth() {
           </div>
         </div>
       </div>
-
-      {/* ✅ Room for Footer below */}
     </div>
   );
 }

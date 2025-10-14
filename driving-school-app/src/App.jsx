@@ -1,7 +1,6 @@
-// App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Home Dashboard/Home";
-import Header from "./Home Dashboard/Header"; // adjust the path if your Header.jsx is in another folder
+import Header from "./Home Dashboard/Header";
 import Footer from "./Home Dashboard/Footer";
 import Auth from "./Authentication/Auth";
 import StudentProfile from "./Profiles/Student";
