@@ -8,7 +8,7 @@ export default function StudentProfile() {
     idNumber: "0103046149086",
     enrolledCourses: [
       { title: "K53 Driving Course", progress: 60 },
-      { title: "Advanced Parking", progress: 20 },
+      { title: "Advanced Parking", progress: 0 },
     ],
     bookings: [
       { course: "K53 Driving Course", status: "Confirmed", date: "2025-10-08" },
