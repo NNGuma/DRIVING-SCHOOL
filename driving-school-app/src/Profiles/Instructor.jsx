@@ -19,16 +19,16 @@ export default function InstructorProfile() {
   });
 
   useEffect(() => {
-    //This is gonna be used for backend to fetch user data.
+    // This will fetch instructor data from backend later.
   }, []);
 
   return (
-    <div className="student-desktop">
-      <header className="student-header">
+    <div className="instructor-desktop dark">
+      <header className="instructor-header">
         <h1>Instructor Profile</h1>
       </header>
 
-      <main className="student-content">
+      <main className="instructor-content">
         {/* Basic Info */}
         <section className="profile-card">
           <h2>{instructor.fullName}</h2>

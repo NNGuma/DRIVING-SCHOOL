@@ -17,22 +17,24 @@ export default function StudentProfile() {
   });
 
   useEffect(() => {
-        //This is gonna be used for backend to fetch user data.
+    // Future: Fetch student data from backend
   }, []);
 
   return (
-    <div className="student-desktop">
-      <header className="student-header">
-        <h1>Student</h1>
+    <div className="instructor-desktop"> {/* same base container for styling */}
+      <header className="instructor-header">
+        <h1>Student Profile</h1>
       </header>
 
-      <main className="student-content">
+      <main className="instructor-content">
+        {/* Basic Info */}
         <section className="profile-card">
           <h2>{student.fullName}</h2>
           <p><strong>Email:</strong> {student.email}</p>
           <p><strong>ID Number:</strong> {student.idNumber}</p>
         </section>
 
+        {/* Courses */}
         <section className="section">
           <h3>My Courses</h3>
           <div className="course-container">
@@ -51,6 +53,7 @@ export default function StudentProfile() {
           </div>
         </section>
 
+        {/* Bookings */}
         <section className="section">
           <h3>My Bookings</h3>
           <table className="booking-table">
