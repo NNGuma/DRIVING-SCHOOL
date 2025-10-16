@@ -1,0 +1,191 @@
+/* ===========================
+   PAGE BACKGROUND
+   =========================== */
+body {
+  background-color: #f3e8d5dc;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===========================
+   CONTAINER STYLING
+   =========================== */
+.crud-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: #1d1d1b; /* keep container dark */
+  padding: 20px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+
+/* ===========================
+   TABLE STYLING
+   =========================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #333;
+  text-align: center;
+}
+
+th {
+  background: #333;
+}
+
+/* ===========================
+   FORM INPUTS
+   =========================== */
+input {
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #666;
+  background: #222;
+  color: white;
+}
+
+/* ===========================
+   BUTTON STYLES
+   =========================== */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  margin: 0 2px;
+  color: white;
+  transition: 0.2s;
+}
+
+/* Add Button */
+.add-btn {
+  background: #007bff;
+}
+.add-btn:hover {
+  background: #0056b3;
+}
+
+/* Edit Button */
+.edit-btn {
+  background: #ffa500;
+}
+.edit-btn:hover {
+  background: #cc8400;
+}
+
+/* Delete Button */
+.delete-btn {
+  background: #dc3545;
+}
+.delete-btn:hover {
+  background: #a71d2a;
+}
+
+/* Save Button */
+.save-btn {
+  background: #28a745;
+}
+.save-btn:hover {
+  background: #1e7e34;
+}
+
+/* Cancel Button */
+.cancel-btn {
+  background: #6c757d;
+}
+.cancel-btn:hover {
+  background: #5a6268;
+}
+
+/* ===========================
+   USER SUBSCRIPTION STYLES
+   =========================== */
+
+/* Highlight selected plan */
+.selected-row {
+  background-color: rgba(50, 240, 208, 0.1);
+  border-left: 4px solid #32f0d0;
+  transition: background-color 0.3s ease;
+}
+
+/* Select Button */
+.select-btn {
+  background-color: #32f0d0;
+  color: #1d1d1b;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.select-btn:hover {
+  background-color: #00c4a7;
+}
+
+.select-btn.selected {
+  background-color: #ff8c00;
+  color: #fff;
+}
+
+.user-greeting {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 500;
+  color: #32f0d0;
+  margin-right: 10px;
+  animation: fadeIn 0.6s ease;
+}
+/* ===========================
+   FEATURE LIST ALIGNMENT FIX
+   =========================== */
+
+/* Ensure clean vertical alignment of icons */
+td ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+td ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+  line-height: 1.4;
+}
+
+.feature-icon {
+  color: #32f0d0;
+  min-width: 18px; /* keeps icons in a straight column */
+  text-align: center;
+}
+
+/* ===========================
+   OPTIONAL SMALL ANIMATION
+   =========================== */
+.selected-row {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-3px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

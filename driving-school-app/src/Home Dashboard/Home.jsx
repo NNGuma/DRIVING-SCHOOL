@@ -1,20 +1,20 @@
 import React from "react";
-
-import About from "./About"; 
+import { Routes, Route } from "react-router-dom"; // ✅ Import these
+import Header from "./Header";
+import About from "./About";
 import Contact from "./ContactUs";
 
-
-
-// <NewsLetter/>
 
 export default function Home() {
   return (
     <>
-  
-<About/>
-<Contact/>
+      <Header />
+      <About />
 
-   
+      <Routes>
+        <Route path="contact" element={<Contact />} />
+        
+      </Routes>
     </>
   );
 }
