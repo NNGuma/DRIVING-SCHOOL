@@ -164,3 +164,60 @@ body {
     overflow-x: auto;
   }
 }
+
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.edit-form label {
+  display: flex;
+  flex-direction: column;
+  color: #32f0d0;
+  font-weight: 500;
+}
+
+.edit-form input {
+  margin-top: 5px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background-color: #111;
+  color: #fff;
+}
+
+.edit-btn,
+.save-btn,
+.cancel-btn {
+  margin-top: 15px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.edit-btn {
+  background-color: #32f0d0;
+  color: #000;
+}
+
+.save-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.cancel-btn {
+  background-color: #dc3545;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: flex-end;
+}

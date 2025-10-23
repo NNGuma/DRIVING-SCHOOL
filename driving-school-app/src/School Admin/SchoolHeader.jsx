@@ -58,9 +58,11 @@ export default function SchoolHeader() {
             Courses
           </NavLink>
 
-          <span className="user-greeting">
-            <FaUserCircle className="icon" /> Hello, {userName}
-          </span>
+           <NavLink to ="/school/SchoolProfile" className={activeClass}>
+                   <span className="user-greeting">
+                      <FaUserCircle className="icon" /> Hello, {userName}
+                       </span>
+                 </NavLink>
         </div>
       </nav>
 
@@ -113,7 +115,7 @@ export default function SchoolHeader() {
               </li>
               <li>
                 <NavLink
-                  to="/school/BookingTable"
+                  to="/school/Bookings"
                   className={activeClass}
                   onClick={toggleSidebar}
                 >
