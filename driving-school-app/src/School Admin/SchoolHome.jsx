@@ -8,6 +8,7 @@ import Dashboard from "./Dashboard";
 import { FaMoneyBillWave, FaUserGraduate, FaBook, FaSchool, FaCalendarAlt, FaChalkboardTeacher, FaCrown } from "react-icons/fa";
 import UserSubscription from "./UserSubscription";
 import BookingTable from "./BookingTable";
+import PaymentTable from "./PaymentTable";
 
 
 
@@ -26,6 +27,7 @@ export default function SchoolHome() {
         <Route path="courses" element={<Courses />} />
         <Route path=" UserSubscription" element={< UserSubscription/>} /> {/* 👈 Add this route */}
        <Route path="BookingTable" element={<BookingTable />} /> 
+          <Route path="PaymentTable" element={<PaymentTable />} /> 
       </Routes>
     </>
   );//

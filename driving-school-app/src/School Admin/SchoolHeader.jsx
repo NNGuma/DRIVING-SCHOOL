@@ -122,7 +122,7 @@ export default function SchoolHeader() {
               </li>
               <li>
                 <NavLink
-                  to="/school/payments"
+                  to="/school/PaymentTable"
                   className={activeClass}
                   onClick={toggleSidebar}
                 >
