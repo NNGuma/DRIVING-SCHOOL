@@ -1,0 +1,182 @@
+/* ================================
+   PAYMENT GATEWAY LAYOUT
+================================ */
+
+.payment-container {
+  max-width: 520px;
+  margin: 40px auto;
+  padding: 30px;
+  background: var(--card-bg);
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+  backdrop-filter: blur(6px);
+  color: #fff;
+  text-align: center;
+}
+
+/* Titles */
+
+.payment-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #ffe8b5;
+}
+
+.payment-subtitle {
+  font-size: 14px;
+  opacity: 0.85;
+  margin-bottom: 24px;
+}
+
+/* ================================
+   PAYMENT METHODS
+================================ */
+
+.payment-methods {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.payment-method {
+  flex: 1;
+  padding: 12px 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.05);
+  cursor: pointer;
+  transition: 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.method-icon {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.payment-method:hover {
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.1);
+}
+
+.payment-method.active {
+  border: 2px solid var(--accent);
+  background: rgba(50,240,208,0.08);
+}
+
+/* ================================
+   PAYMENT FORM
+================================ */
+
+.payment-box {
+  text-align: left;
+}
+
+.box-title {
+  font-size: 18px;
+  margin-bottom: 14px;
+  color: #ffe8b5;
+}
+
+/* Inputs */
+
+.payment-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.04);
+  color: #fff;
+  font-size: 14px;
+}
+
+.payment-box input::placeholder {
+  color: rgba(255,255,255,0.6);
+}
+
+.payment-box input:focus {
+  outline: none;
+  border: 1px solid var(--accent);
+}
+
+/* Row inputs (MM/YY + CVV) */
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.row input {
+  flex: 1;
+}
+
+/* ================================
+   CASH NOTE
+================================ */
+
+.cash-note {
+  padding: 14px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+/* ================================
+   PAYMENT BUTTON
+================================ */
+
+.pay-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  background: var(--gold);
+  color: #000;
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 10px;
+  transition: 0.25s ease;
+}
+
+.pay-btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+}
+
+.lock-icon {
+  font-size: 14px;
+}
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 600px) {
+
+  .payment-container {
+    margin: 20px;
+    padding: 22px;
+  }
+
+  .payment-methods {
+    flex-direction: column;
+  }
+
+  .payment-method {
+    flex-direction: row;
+    justify-content: center;
+    gap: 8px;
+  }
+
+}

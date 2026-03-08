@@ -1,5 +1,9 @@
 import { useState } from "react";
+<<<<<<< HEAD
 import { login } from "../api/API";
+=======
+import { useNavigate } from "react-router-dom";
+>>>>>>> 49d9a79 (Added new learner and instructor components)
 import "./Auth.css";
 
 export default function Auth() {
@@ -13,25 +17,55 @@ export default function Auth() {
     licenseNumber: "",
   });
 
+  const navigate = useNavigate();
+
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+
     console.log({ action: isLogin ? "Login" : "Sign Up", role, ...form });
+
     alert(`${isLogin ? "Logged in" : "Signed up"} as ${role}`);
+
+    // === ROLE‑BASED ROUTING AFTER LOGIN ===
+    if (isLogin) {
+      switch (role) {
+        case "Student":
+          navigate("/learner");
+          break;
+
+        case "Instructor":
+          navigate("/instructor");
+          break;
+
+        case "System Admin":
+          navigate("/system");
+          break;
+
+        case "School Admin":
+          navigate("/school");
+          break;
+
+        default:
+          navigate("/");
+      }
+    }
   };
 
   return (
     <div className="auth-page">
       <div className="auth-wrapper">
         <div className="auth-container">
+          {/* LEFT PANEL */}
           <div className="auth-left">
             <h1>Driving School Booking</h1>
             <p>Your journey to a driver’s license starts here!</p>
           </div>
 
+          {/* RIGHT PANEL */}
           <div className="auth-right">
             <h2>{isLogin ? "Log In" : "Sign Up"}</h2>
             <p className="subtitle">
@@ -41,6 +75,7 @@ export default function Auth() {
             </p>
 
             <form onSubmit={handleSubmit} className="auth-form">
+              {/* FULL NAME (SIGNUP ONLY) */}
               {!isLogin && (
                 <>
                   <label>Full Name</label>
@@ -55,6 +90,7 @@ export default function Auth() {
                 </>
               )}
 
+              {/* EMAIL */}
               <label>Email</label>
               <input
                 type="email"
@@ -65,6 +101,7 @@ export default function Auth() {
                 required
               />
 
+              {/* PASSWORD */}
               <label>Password</label>
               <input
                 type="password"
@@ -75,9 +112,10 @@ export default function Auth() {
                 required
               />
 
+              {/* ROLE SELECTION (SIGNUP ONLY) */}
               {!isLogin && (
                 <>
-                  <label>Select your model</label>
+                  <label>Select your role</label>
                   <select
                     value={role}
                     onChange={(e) => setRole(e.target.value)}
@@ -85,8 +123,11 @@ export default function Auth() {
                   >
                     <option value="Student">Student</option>
                     <option value="Instructor">Instructor</option>
+                    <option value="School Admin">School Admin</option>
+                    <option value="System Admin">System Admin</option>
                   </select>
 
+                  {/* STUDENT EXTRA FIELD */}
                   {role === "Student" && (
                     <>
                       <label>ID Number</label>
@@ -101,6 +142,7 @@ export default function Auth() {
                     </>
                   )}
 
+                  {/* INSTRUCTOR EXTRA FIELD */}
                   {role === "Instructor" && (
                     <>
                       <label>License Number</label>
@@ -117,11 +159,13 @@ export default function Auth() {
                 </>
               )}
 
+              {/* SUBMIT BUTTON */}
               <button type="submit" className="auth-btn">
                 {isLogin ? "Log In" : "Sign Up"}
               </button>
             </form>
 
+            {/* TOGGLE LOGIN/SIGNUP */}
             <p className="toggle-text">
               {isLogin ? "Don’t have an account?" : "Already have an account?"}{" "}
               <span onClick={() => setIsLogin(!isLogin)}>

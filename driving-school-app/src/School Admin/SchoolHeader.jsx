@@ -3,6 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { FaTimes, FaHome, FaUserCircle, FaSignOutAlt } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 import "../index.css";
+
 import {
   FaCar,
   FaUserGraduate,
@@ -34,7 +35,7 @@ export default function SchoolHeader() {
 
   return (
     <>
-      {/* Header */}
+      {/* Top Header */}
       <nav className="navbar">
         <div className="navbar-left">
           <GiHamburgerMenu
@@ -46,23 +47,26 @@ export default function SchoolHeader() {
 
         <div className="navbar-right">
           <NavLink to="/school" className={activeClass}>
-            <FaHome className="icon" /> 
+            <FaHome className="icon" />
           </NavLink>
+
           <NavLink to="/school/learners" className={activeClass}>
             Learners
           </NavLink>
+
           <NavLink to="/school/instructors" className={activeClass}>
             Instructors
           </NavLink>
+
           <NavLink to="/school/courses" className={activeClass}>
             Courses
           </NavLink>
 
-           <NavLink to ="/school/SchoolProfile" className={activeClass}>
-                   <span className="user-greeting">
-                      <FaUserCircle className="icon" /> Hello, {userName}
-                       </span>
-                 </NavLink>
+          <NavLink to="/school/SchoolProfile" className={activeClass}>
+            <span className="user-greeting">
+              <FaUserCircle className="icon" /> Hello, {userName}
+            </span>
+          </NavLink>
         </div>
       </nav>
 
@@ -85,7 +89,6 @@ export default function SchoolHeader() {
             </div>
 
             <ul className="sidebar-menu">
-              
               <li>
                 <NavLink
                   to="/school/learners"
@@ -95,6 +98,7 @@ export default function SchoolHeader() {
                   <FaUserGraduate /> Students
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   to="/school/instructors"
@@ -104,6 +108,7 @@ export default function SchoolHeader() {
                   <FaChalkboardTeacher /> Instructors
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   to="/school/courses"
@@ -113,6 +118,7 @@ export default function SchoolHeader() {
                   <FaBook /> Courses
                 </NavLink>
               </li>
+
               <li>
                 <NavLink
                   to="/school/Bookings"
@@ -122,9 +128,11 @@ export default function SchoolHeader() {
                   <FaCalendarAlt /> Bookings
                 </NavLink>
               </li>
+
+              {/* FIXED PAYMENTS ROUTE */}
               <li>
                 <NavLink
-                  to="/school/PaymentTable"
+                  to="/payments/summary"
                   className={activeClass}
                   onClick={toggleSidebar}
                 >
@@ -133,7 +141,6 @@ export default function SchoolHeader() {
               </li>
             </ul>
 
-            {/* Logout moved to sidebar */}
             <div className="sidebar-logout" onClick={handleLogout}>
               <FaSignOutAlt /> Logout
             </div>

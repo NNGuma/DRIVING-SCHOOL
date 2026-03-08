@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";   // ✅ IMPORT NAVIGATE
 import "../TableStyles.css";
 
 export default function UserSubscription() {
+  const navigate = useNavigate(); // ✅ INIT NAVIGATE
+
   const [subscriptions] = useState([
     {
       id: 1,
@@ -28,7 +31,11 @@ export default function UserSubscription() {
 
   const handleSelect = (planName) => {
     setSelectedPlan(planName);
-    alert(`You have selected the ${planName} plan!`);
+
+    // ✅ ROUTE TO SUBSCRIPTION BILLING PAGE
+    navigate("/payments/subscriptions", {
+      state: { selectedPlan: planName }, // OPTIONAL: Send plan to next page
+    });
   };
 
   return (
@@ -63,9 +70,7 @@ export default function UserSubscription() {
               </td>
               <td>
                 <button
-                  className={`select-btn ${
-                    selectedPlan === s.plan ? "selected" : ""
-                  }`}
+                  className={`select-btn ${selectedPlan === s.plan ? "selected" : ""}`}
                   onClick={() => handleSelect(s.plan)}
                 >
                   {selectedPlan === s.plan ? "Selected" : "Choose"}

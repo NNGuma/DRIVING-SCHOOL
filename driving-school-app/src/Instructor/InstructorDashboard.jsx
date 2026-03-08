@@ -1,3 +1,4 @@
+// InstructorDashboard.jsx
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaBook, FaCalendarAlt, FaUserGraduate, FaTasks, FaUserCog } from "react-icons/fa";
@@ -22,7 +23,8 @@ export default function InstructorDashboard() {
         <Link to="/instructor/schedule" className="dashboard-card">
           <FaCalendarAlt className="feature-icon" /> My Availability
         </Link>
-        <Link to="/instructor/InstructorProfile" className="dashboard-card">
+        {/* ✅ Keep this route name */}
+        <Link to="/instructor/I-Profile" className="dashboard-card">
           <FaUserCog className="feature-icon" /> My Profile
         </Link>
       </div>

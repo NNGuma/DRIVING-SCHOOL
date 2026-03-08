@@ -37,9 +37,9 @@ export default function Header() {
           Pricing
         </a>
 
-        {/* ✅ Contact Link (React Router) */}
+        {/* ✅ Fixed Contact Us route */}
         <NavLink
-          to="/contact"
+          to="/ContactUs"
           className={({ isActive }) =>
             isActive ? "nav-link active-link" : "nav-link"
           }
@@ -48,24 +48,17 @@ export default function Header() {
           Contact Us
         </NavLink>
 
-        {/* ✅ Profile & Login Links */}
-        <Link
-          to="/Student"
-          onClick={closeMenu}
-          className="nav-link icon-link"
-          title="Student Profile"
-        >
-          <FaUser className="icon" />
-        </Link>
-
+        {/* ✅Login Links */}
         <Link
           to="/Auth"
           onClick={closeMenu}
           className="nav-link icon-link"
           title="Login"
         >
-          <FaSignInAlt className="icon" />
+          <FaUser className="icon" />
         </Link>
+
+      
       </div>
     </nav>
   );

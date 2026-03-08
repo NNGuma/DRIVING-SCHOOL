@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  color: #fff;
+  color: #ffffff;
   min-height: 100vh;
 }
 
@@ -19,7 +19,7 @@ body {
   text-align: center;
   font-family: "Poppins", sans-serif;
   background: #c9b17c; /* lighter warm container */
-  padding: 20px;
+  padding: 40px;
   border-radius: 12px;
   color: #1b1b1b; /* dark text for contrast */
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
@@ -43,12 +43,22 @@ body {
 /* ===========================
    TABLE STYLING
    =========================== */
-table {
+.table-wrapper {
   width: 100%;
+  overflow-x: auto;        /* ✅ prevents cutting */
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: auto;                /* ✅ Changed from 100% */
+  max-width: 100%;            /* ✅ Added */
+  margin: 0 auto;             /* ✅ Added */
   border-collapse: collapse;
-  background: rgba(255, 255, 255, 0.4);
+  background: rgba(241, 236, 189, 0.973);
   border-radius: 12px;
   overflow: hidden;
+  min-width: 400px; /* Prevent columns from shrinking too much */
 }
 
 th,
@@ -60,17 +70,88 @@ td {
 
 th {
   background: #b29966;
-  color: #fff;
+  color: #ffffff;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 /* Hover effect for rows */
-tbody tr:hover {
-  background-color: rgba(255, 255, 255, 0.6);
+tbody tr {
+  background-color: rgba(192, 156, 77, 0.6);
   transition: background 0.3s ease;
 }
+
+
+tbody tr:hover {
+  background-color: rgba(231, 213, 129, 0.658);
+  transition: background 0.3s ease;
+}
+
+/* ===========================
+   INSTRUCTOR PROFILE 
+   =========================== */
+
+.profile-container {
+  overflow-x: hidden; /* ✅ prevents accidental clipping */
+}
+
+/* Wrapper ensures table never gets cut */
+.profile-table-wrapper {
+  width: 100%;
+  overflow-x: auto;       /* ✅ key fix */
+  display: flex;
+  justify-content: center;
+}
+
+/* Profile-specific table */
+.profile-table {
+  width: 100%;
+  max-width: 700px;       /* ✅ form-like width */
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+/* Left labels */
+.profile-label {
+  width: 35%;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  white-space: nowrap;
+}
+
+/* Right inputs */
+.profile-field {
+  width: 65%;
+  padding: 12px;
+}
+
+/* Inputs inside profile table only */
+.profile-field input {
+  width: 100%;
+  box-sizing: border-box; /* ✅ prevents overflow */
+}
+
+/* Save button spacing */
+.profile-save-btn {
+  margin-top: 20px;
+}
+
+/* Mobile safety */
+@media (max-width: 480px) {
+  .profile-label {
+    width: 40%;
+    font-size: 13px;
+  }
+
+  .profile-table {
+    min-width: 0; /* ✅ prevents forced overflow */
+  }
+}
+
+
+
 
 /* ===========================
    FORM INPUTS
@@ -105,16 +186,25 @@ button {
   border-radius: 6px;
   padding: 8px 14px;
   font-weight: 600;
-  color: #fff;
+  color: #5c4410b0;
   transition: all 0.3s ease;
 }
 
 .add-btn {
   background: linear-gradient(90deg, #d3a34a, #b8860b);
-  box-shadow: 0 0 10px rgba(211, 163, 74, 0.4);
+  box-shadow: 0 0 10px rgba(211, 163, 74, 0.788);
 }
 .add-btn:hover {
   box-shadow: 0 0 20px rgba(211, 163, 74, 0.7);
+}
+
+
+.select-btn {
+  background: linear-gradient(90deg, #d3a34a, #b8860b);
+  box-shadow: 0 0 10px rgba(211, 163, 74, 0.788);
+}
+.select-btn:hover {
+  box-shadow: 0 0 20px rgba(206, 172, 110, 0.7);
 }
 
 .save-btn {
@@ -211,16 +301,19 @@ td ul li {
    DASHBOARD CARDS
    =========================== */
 .dashboard-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 20px;
+  display: flex;
+  flex-direction: column;     /* stack vertically */
+  align-items: center;        /* center cards */
+  gap: 18px;
   margin-top: 30px;
 }
 
 .dashboard-card {
+  width: 100%;
+  max-width: 520px;           /* ✅ prevents full-width bars */
   background: #b29966;
   color: #fff;
-  padding: 25px 10px;
+  padding: 18px 20px;         /* slimmer height */
   border-radius: 12px;
   text-decoration: none;
   text-transform: uppercase;
@@ -230,10 +323,76 @@ td ul li {
 }
 
 .dashboard-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   background: linear-gradient(145deg, #c9b17c, #b18e4d);
-  box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.35);
   color: #fff7e0;
+}
+
+/* ===========================
+   BOOK LESSON PAGE
+   =========================== */
+
+/* Prevent overflow issues */
+.booking-container {
+  overflow-x: hidden;
+}
+
+/* Wrapper ensures table stays centered */
+.booking-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/* Booking form table */
+.booking-table {
+  width: 100%;
+  max-width: 650px;   /* keeps same form-like look as profile page */
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+
+/* Left labels */
+.booking-label {
+  width: 35%;
+  font-weight: 600;
+  text-align: left;
+  padding: 12px;
+  white-space: nowrap;
+}
+
+/* Right input fields */
+.booking-field {
+  width: 65%;
+  padding: 12px;
+}
+
+/* Inputs inside booking table only */
+.booking-field input,
+.booking-field select {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Confirm booking button spacing */
+.booking-save-btn {
+  margin-top: 20px;
+}
+
+/* Mobile safety */
+@media (max-width: 480px) {
+
+  .booking-label {
+    width: 40%;
+    font-size: 13px;
+  }
+
+  .booking-table {
+    min-width: 0;
+  }
+
 }
 
 /* ===========================
@@ -285,46 +444,8 @@ td ul li {
     font-size: 14px;
   }
 
-  /* Responsive table layout */
-  table,
-  thead,
-  tbody,
-  th,
-  td,
-  tr {
-    display: block;
-  }
-
-  thead tr {
-    display: none;
-  }
-
-  tbody tr {
-    margin-bottom: 15px;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.05);
-    padding: 10px;
-  }
-
-  tbody td {
-    display: flex;
-    justify-content: space-between;
-    padding: 8px 0;
-    border: none;
-    font-size: 14px;
-  }
-
-  tbody td::before {
-    content: attr(data-label);
-    font-weight: 600;
-    text-transform: capitalize;
-    color: #32f0d0;
-  }
-
-  .status-badge {
-    min-width: auto;
-    padding: 3px 6px;
-    font-size: 12px;
+  .table-wrapper {
+    justify-content: flex-start; /* ✅ Allow scroll on small screens */
   }
 }
 
@@ -355,3 +476,4 @@ td ul li {
 ::-webkit-scrollbar-track {
   background: #f3e8d5;
 }
+
