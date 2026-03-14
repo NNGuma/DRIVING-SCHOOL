@@ -6,6 +6,6 @@
  dotnet ef database update
  dotnet run
  ````
-3. Visit https://localhost:5001
+3. Visit https://localhost:5000
 Default seeded admin: admin@drivingschool.local / Admin123!
 # DRIVING-SCHOOL

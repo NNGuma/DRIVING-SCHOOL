@@ -1,5 +1,5 @@
 This folder contains minimal example code for a Vite + React frontend that calls the backend API.
-- Start your backend at https://localhost:5001 (or http://localhost:5000 for HTTP)
+- Start your backend at http://localhost:5000 for HTTP
 - During development Vite runs at http://localhost:5173 (CORS policy allows that origin)
 
 Example usage:
