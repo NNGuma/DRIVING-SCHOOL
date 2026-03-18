@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Backend",
+    "\\Backend\\DrivingSchool.Api",
+    "\\Backend\\DrivingSchool.Api\\Controllers",
+    "\\Backend\\DrivingSchool.Api\\Data",
+    "\\Backend\\DrivingSchool.Api\\Models"
+  ],
+  "SelectedNode": "\\Backend\\DrivingSchool.Api\\Models\\Booking.cs",
+  "PreviewInSolutionExplorer": false
+}

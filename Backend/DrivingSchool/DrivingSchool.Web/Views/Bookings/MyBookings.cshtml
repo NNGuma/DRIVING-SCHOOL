@@ -1,0 +1,25 @@
+@model IEnumerable<DrivingSchool.Web.Models.Booking>
+    @{
+ ViewData["Title"] = "My Bookings";
+    }
+    <h1>My Bookings</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Course</th>
+                <th>Start</th>
+                <th>End</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var b in Model){
+                <tr>
+                    <td>@b.Course?.Title</td>
+                    <td>@b.Start.ToLocalTime()</td>
+                    <td>@b.End.ToLocalTime()</td>
+                    <td>@b.Status</td>
+                </tr>
+            }
+        </tbody>
+    </table>

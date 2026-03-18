@@ -1,0 +1,20 @@
+@model IEnumerable<DrivingSchool.Web.Models.Course>
+    @{
+ ViewData["Title"] = "Courses";
+    }
+    <h1>Available Courses</h1>
+    <div class="row">
+        @foreach(var c in Model)
+{
+        <div class="col-md-4">
+            <div class="card p-3 mb-3">
+                <h3>@c.Title</h3>
+                <p>@c.Description</p>
+                <p><strong>Duration:</strong> @c.DurationHours hrs</p>
+                <p><strong>Price:</strong> @c.Price.ToString("C")</p>
+                <a class="btn btn-primary"
+                   href="@Url.Action("Details","Courses", new { id = c.Id })">View</a>
+            </div>
+        </div>
+ }
+    </div>

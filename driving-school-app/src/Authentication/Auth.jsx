@@ -1,9 +1,7 @@
 import { useState } from "react";
-<<<<<<< HEAD
+
 import { login } from "../api/API";
-=======
 import { useNavigate } from "react-router-dom";
->>>>>>> 49d9a79 (Added new learner and instructor components)
 import "./Auth.css";
 
 export default function Auth() {

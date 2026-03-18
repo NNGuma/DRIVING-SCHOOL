@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DrivingSchool",
+    "\\DrivingSchool\\DrivingSchool.Web",
+    "\\DrivingSchool\\DrivingSchool.Web\\Controllers",
+    "\\DrivingSchool\\DrivingSchool.Web\\Data",
+    "\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings",
+    "\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses",
+    "\\DrivingSchool\\DrivingSchool.Web\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs",
+  "PreviewInSolutionExplorer": false
+}

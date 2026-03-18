@@ -1,0 +1,10 @@
+@model DrivingSchool.Web.Models.Course
+@{
+ ViewData["Title"] = Model.Title;
+}
+<h1>@Model.Title</h1>
+<p>@Model.Description</p>
+<p><strong>Duration:</strong> @Model.DurationHours hrs</p>
+<p><strong>Price:</strong> @Model.Price.ToString("C")</p>
+<a class="btn btn-success" href="@Url.Action("Create","Bookings", new {
+courseId = Model.Id })">Book Now</a>

@@ -1,0 +1,539 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\BookingsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Controllers\\BookingsController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Data\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\Create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\README.md||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\README.md||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\MyBookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\MyBookings.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Controllers\\AdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\CoursesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Controllers\\CoursesController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingInputModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingInputModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\FakePaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\FakePaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\BookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\BookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\CourseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\CourseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IPaymentService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IBookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IBookingService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\ICourseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\ICourseService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\StudentProgress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\StudentProgress.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\Payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\Booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\InstructorAvailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\InstructorAvailability.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\Instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\Course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Controllers\\AccountController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DrivingSchool\\DrivingSchool.Web\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T10:52:36.597Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-16T11:32:57.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedData.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:12:51.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Program.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Program.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Program.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T11:01:11.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:31:58.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\Create.cshtml",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\Create.cshtml",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\Create.cshtml",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T10:54:36.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:47:49.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MyBookings.cshtml",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\MyBookings.cshtml",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\MyBookings.cshtml",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\MyBookings.cshtml",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Views\\Bookings\\MyBookings.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T10:58:26.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\appsettings.json",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\appsettings.json",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-16T09:39:21.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\README.md",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\README.md",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\README.md",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-03-16T11:11:23.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Details.cshtml",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Details.cshtml",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Details.cshtml",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Views\\Courses\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-16T10:53:42.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:50:46.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:46:12.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateBookingViewModel.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingViewModel.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingViewModel.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingViewModel.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:45:29.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateBookingInputModel.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingInputModel.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingInputModel.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingInputModel.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\ViewModels\\CreateBookingInputModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:44:57.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FakePaymentService.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\FakePaymentService.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\FakePaymentService.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\FakePaymentService.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\FakePaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:43:12.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BookingService.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\BookingService.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\BookingService.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\BookingService.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\BookingService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADgAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:39:45.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CourseService.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\CourseService.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\CourseService.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\CourseService.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Services\\Implementations\\CourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:39:11.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:34:49.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IBookingService.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IBookingService.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IBookingService.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\IBookingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:34:06.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICourseService.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\ICourseService.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\ICourseService.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\ICourseService.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Services\\Interfaces\\ICourseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T10:33:33.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StudentProgress.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\StudentProgress.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\StudentProgress.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\StudentProgress.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\StudentProgress.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:47:28.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\Payment.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Payment.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:46:55.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Booking.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\Booking.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Booking.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:46:09.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InstructorAvailability.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\InstructorAvailability.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\InstructorAvailability.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\InstructorAvailability.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\InstructorAvailability.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:45:32.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\Instructor.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Instructor.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:44:35.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\Course.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\Course.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:44:02.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:43:05.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:37:41.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DrivingSchool\\DrivingSchool.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Projects\\DRIVING-SCHOOL\\Backend\\DrivingSchool\\DrivingSchool.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DrivingSchool\\DrivingSchool.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T09:36:59.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
