@@ -4,11 +4,8 @@
     "\\DrivingSchool",
     "\\DrivingSchool\\DrivingSchool.Web",
     "\\DrivingSchool\\DrivingSchool.Web\\Controllers",
-    "\\DrivingSchool\\DrivingSchool.Web\\Data",
-    "\\DrivingSchool\\DrivingSchool.Web\\Views\\Bookings",
-    "\\DrivingSchool\\DrivingSchool.Web\\Views\\Courses",
-    "\\DrivingSchool\\DrivingSchool.Web\\wwwroot\\css"
+    "\\DrivingSchool\\DrivingSchool.Web\\Data"
   ],
-  "SelectedNode": "\\DrivingSchool\\DrivingSchool.Web\\Data\\SeedData.cs",
+  "SelectedNode": "\\DrivingSchool\\DrivingSchool.Web\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
